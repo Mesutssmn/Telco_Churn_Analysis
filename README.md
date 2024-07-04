@@ -29,40 +29,40 @@ For more details, see the dataset description in https://community.ibm.com/commu
 
 **gender:** Customer's gender .
 
-**SeniorCitizen:** Indicates senior citizen status .
+**SeniorCitizen:** Indicates if the customer is 65 or older: Yes, No
 
 **Partner:** Indicates if customer has a partner .
 
-**Dependents:** Indicates if customer has dependents .
+**Dependents:** Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents, grandparents, etc.
 
 **tenure:** Number of months with the company.
 
-**PhoneService:** Indicates phone service .
+**PhoneService:** Indicates if the customer subscribes to home phone service with the company: Yes, No
 
-**MultipleLines:** Indicates multiple lines .
+**MultipleLines:** Indicates if the customer subscribes to multiple telephone lines with the company: Yes, No
 
-**InternetService:** Type of internet service .
+**InternetService:** Indicates if the customer subscribes to Internet service with the company: No, DSL, Fiber Optic, Cable.
 
-**OnlineSecurity:** Online security service .
+**OnlineSecurity:** Indicates if the customer subscribes to an additional online security service provided by the company: Yes, No
 
-**OnlineBackup:** Online backup service .
+**OnlineBackup:** Indicates if the customer subscribes to an additional online backup service provided by the company: Yes, No
 
-**DeviceProtection:** Device protection service .
+**DeviceProtection:** Indicates if the customer subscribes to an additional device protection plan for their Internet equipment provided by the company: Yes, No
 
-**TechSupport:** Tech support service .
+**TechSupport:** Indicates if the customer subscribes to an additional technical support plan from the company with reduced wait times: Yes, No
 
-**StreamingTV:** Streaming TV service .
+**StreamingTV:** Indicates if the customer uses their Internet service to stream television programing from a third party provider: Yes, No. The company does not charge an additional fee for this service.
 
-**StreamingMovies:** Streaming movies service .
+**StreamingMovies:** Indicates if the customer uses their Internet service to stream movies from a third party provider: Yes, No. The company does not charge an additional fee for this service.
 
-**Contract:** Contract type .
+**Contract:** Indicates the customer’s current contract type: Month-to-Month, One Year, Two Year.
 
-**PaperlessBilling:** Paperless billing .
+**PaperlessBilling:** Indicates if the customer has chosen paperless billing: Yes, No
 
-**PaymentMethod:** Payment method .
+**PaymentMethod:** Indicates how the customer pays their bill: Bank Withdrawal, Credit Card, Mailed Check
 
-**MonthlyCharges:** Monthly charges.
+**MonthlyCharges:** Indicates the customer’s current total monthly charge for all their services from the company.
 
-**TotalCharges:** Total charges.
+**TotalCharges:** Indicates the customer’s total charges, calculated to the end of the quarter specified above.
 
-**Churn:** Indicates if customer churned.
+**Churn:** Yes = the customer left the company this quarter. No = the customer remained with the company. Directly related to Churn Value.
